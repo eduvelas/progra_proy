@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+            <meta charset="utf-8">
+            <title>Formulario sesión</title>
+            <link rel="icon" href="image/l2.jpeg">
+            <link rel="stylesheet" href="ini.css">
+    </head>
+    <body>
+        <!--menu-->
+        <header>
+            <label class="icon-menu"><img src="imag/mea.png" width="47px" height="45px"></label>
+        </header>
+        <div class="container-menu">
+            <div class="redes-close">
+                <font class="close">ATRAS</font>
+            </div>
+            
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="galeria.html" >galería</a></li>
+                <li><a href="accesorios.html">Accesorios</a></li>
+                <li><a href="#">Contactos</a></li>
+            </ul>
+        </div> 
+
+        <!--login de sugerencias-->
+        <h1>Tu opinión es muy importante<br>para nosotros.</h1>
+        <form action="enviar.php" method="post" class="register">
+            <h2 class="titulo">Envíanos tu opinión</h2>
+            <div class="container" class="conte">
+                <input type="text" name="nombre" placeholder="Nombre" class="re" required>
+                <input type="email" name="correo" placeholder="Correo" class="re" required>
+                <textarea name="mensaje" placeholder="Te escuchamos"></textarea>
+                <input type="submit" value="Enviar" class="enviar">
+            </div>
+        </form>
+        
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>

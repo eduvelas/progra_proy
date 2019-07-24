@@ -1,0 +1,101 @@
+.ro21,.ro22,.ro27 {
+    margin-top: 15px;
+}
+.roe {
+    background-color: rgba(0,0,0, 0.4);
+}
+h1 {
+    color: #FFF;
+    text-align: center;
+}
+.coles {
+    margin-top: 5px;
+}
+/*---------icono de menu---------*/
+header{
+    width: 100%;
+    height: 60px;
+    background: #2a2a2a;
+    border-bottom: 4px solid #3c78d8;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.icon-menu{
+    margin-right: 14px;
+    margin-top: 5px;
+}
+header h1{
+    font-weight: 100;
+    margin-top: 10px;
+}
+.icon-search{
+    font-size: 26px;
+    margin-top: 14px;
+    margin-right: 10px;
+}
+/*-----------estilos menu-----------*/
+.container-menu{
+    width: 100%;
+    height: 100vh;
+    background: -webkit-linear-gradient(left bottom, #fff, #28c3d4, #6b48ff);
+    opacity: .9;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+.redes-close{
+    margin-top: 20px;
+    margin-left: 20px;
+    position: relative;
+}
+.redes-close label{
+    font-size: 26px;
+    margin: 6px;
+    color: #6E6E6E;
+}
+.redes-close font{
+    position: absolute;
+    right: 20px;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    transition: all 300ms;
+}
+.redes-close font:hover{
+    transform: rotate(180deg);
+}
+.container-menu ul{
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.container-menu ul li{
+    list-style: none;
+    padding: 10px;
+}
+.container-menu ul li a{
+    color: white; 
+    font-size: 28px;
+    text-decoration: none;
+    position: relative;
+}
+.container-menu ul li a:before{
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    width: 0px;
+    height: 2px;
+    background: white;
+    transition: all 300ms;
+}
+.container-menu ul li a:hover:before{
+    width: 120%;
+}
+/*--------------------iconos de redes sociales--------------------*/
+.ico12 {
+    margin-top: 10px;
+    margin-right: 5px;
+    width: 30px;
+    height: 30px;
+}
