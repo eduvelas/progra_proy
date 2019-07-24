@@ -136,3 +136,10 @@ h1.gracias{
     font-size: 40px;
     background-color: rgba(0,0,0,0.4);
 }
+/*--------------------iconos de redes sociales--------------------*/
+.ico12 {
+    margin-top: 10px;
+    margin-right: 5px;
+    width: 30px;
+    height: 30px;
+}
